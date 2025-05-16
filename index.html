@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta property="og:title" content="Blog de ItsZariep"/>
+	<meta property="og:image" content="https://https://itszariep.github.io/preview.jpg"/>
+	<meta property="og:url" content="https://itszariep.github.io/index.html"/>
+	<meta property="og:type" content="website"/>
+	<link rel="stylesheet" href="styles/css.css">
+	<title>Blog de ItsZariep</title>
+</head>
+<body>
+
+<div id="main-container">
+	<div id="posts-container"></div>
+	<script src="scripts/indexloader.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			fetchAndDisplayPosts('ItsZariep', 'itszariep.github.io', 'posts', 'posts');
+		});
+	</script>
+
+	<script src="scripts/rightpanel.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			createRc();
+		});
+	</script>
+</div>
+
+</body>
+</html>
