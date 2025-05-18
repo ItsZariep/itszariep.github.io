@@ -1,0 +1,46 @@
+<!-- Tags -->
+<div class="post">
+
+	<div class="post-postcategories">
+		<h3>
+		{% for category in page.categories %}
+			<a href="/categories/{{ category | downcase | url_encode }}/">{{ category }}</a>{% unless forloop.last %} | {% endunless %}
+		{% endfor %}
+		</h3>
+	</div>
+
+	<div class="post-posttitle">
+		<h1>{{ page.title }}</h1>
+	</div>
+
+	<div class="post-postdate">
+		<h3>{{ page.date | date: site.date_format }}</h3>
+	</div>
+
+
+
+
+	<div class="post-postcontent">
+
+
+	<div class="post-img">
+		{% if page.image %}
+			<img src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
+		{% endif %}
+	</div>
+
+	{{ content }}
+	</div>
+
+	<div class="post-postcategoriesbottom">
+	<h3>
+	{% for category in page.categories %}
+		<a href="/categories/{{ category | downcase | url_encode }}/">{{ category }}</a>{% unless forloop.last %} | {% endunless %}
+	{% endfor %}
+	</h3>
+	</div>
+
+	<hr class="endseparator">
+		{% include userbox.html %}
+		{% include comments.html %}
+</div>
