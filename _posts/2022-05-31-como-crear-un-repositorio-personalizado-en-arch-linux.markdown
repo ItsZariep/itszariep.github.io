@@ -3,7 +3,7 @@ layout: post
 title: "Cómo crear un repositorio personalizado en Arch Linux"
 date: 2022-05-31
 categories: Tutorial Linux
-image: /assets/img/thumb/pacmanrepo.webp
+image: /assets/img/thumb/pacmanrepo.jpg
 ---
 
 Hola gente, ¿cómo están? Espero que estén bien. En esta ocasión voy a mostrar cómo hacer un repositorio de Arch Linux. Este post, más que ser útil para hacer un repo personalizado, nos servirá para entender cómo funcionan los repositorios de Arch.

@@ -3,7 +3,7 @@ layout: post
 title: "La historia y diferencias entre FreeBSD, OpenBSD y NetBSD"
 date: 2023-06-08
 categories: [Informativo, "Sistemas Operativos"]
-image: /assets/img/thumb/bsd.webp
+image: /assets/img/thumb/bsd.jpg
 ---
 
 ¡Hola gente! ¿como están? espero que estén bien, si han investigado un poco sobre sistemas operativos,  conocerán a BSD, que fué un sistema de la universidad de Berkeley, pero como el software se dejo de mantener, se crearon 3 variantes de este mismo, estos siendo FreeBSD, NetBSD y OpenBSD, cada uno destinado a diferentes usos, en este video, voy a explicar cuales son las diferencias entre estos, sus usos comunes y un poco de la historia de estos, asi que sin mas que decir, empecemos.

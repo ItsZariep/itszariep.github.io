@@ -3,7 +3,7 @@ layout: post
 title: "Cosas que NO debes hacer si eres novato en Linux"
 date: 2023-04-27
 categories: Informativo Linux
-image: /assets/img/thumb/novatolinux.webp
+image: /assets/img/thumb/novatolinux.jpg
 ---
 
 ¡Hola gente! ¿como están?, espero que estén bien, si eres novato y estas apenas empezando en el mundo de Linux, lo mas probable es que te la pases buscando bastante información, preguntando en diversas redes sociales, o simplemente probando hacer cosas por cuenta propia, lo cual esta bien, pero en estas actividades, existe la probabilidad de hacer cosas que están mal, no son recomendables, no son eficientes, o incluso, ya sea a corto, mediano o largo plazo, pueden terminar por arruinar tu sistema.

@@ -4,7 +4,7 @@ title: "Cómo subir una pagina web a SourceForge
 "
 date: 2022-02-26
 categories: Tutorial
-image: /assets/img/thumb/sfpage.webp
+image: /assets/img/thumb/sfpage.jpg
 ---
 
 ¡Hola gente! ¿cómo están? espero que estén bien en esta ocasión voy a mostrar cómo subir una página web para nuestros proyectos en sourceforge usando las paginas de SourceForge.

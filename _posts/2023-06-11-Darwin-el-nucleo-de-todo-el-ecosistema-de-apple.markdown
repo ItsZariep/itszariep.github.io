@@ -3,7 +3,7 @@ layout: post
 title: "Darwin: el nucleo de TODO el ecosistema de Apple"
 date: 2023-06-11
 categories: [Informativo, "Sistemas Operativos"]
-image: /assets/img/thumb/darwin.webp
+image: /assets/img/thumb/darwin.jpg
 ---
 
 ¡Hola gente! ¿como están? espero que esten bien. Si no vives debajo de una roca, seguro conoces o has usado  algun producto de apple, pero ¿alguna vez te haz preguntado como eran sus origenes? esto especialmente en el software, ya que sobre hardware la historia esta bastante mas divulgada, en este video hablare sobre el kernel darwin y los origenes del ecosistema de Apple, asi que sin mas que decir, empecemos.

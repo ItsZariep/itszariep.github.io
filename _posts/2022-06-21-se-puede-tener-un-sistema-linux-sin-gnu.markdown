@@ -3,7 +3,7 @@ layout: post
 title: "¿Se puede tener un sistema Linux utilizable sin GNU?"
 date: 2022-06-21
 categories: Informativo Linux
-image: /assets/img/thumb/nognu.webp
+image: /assets/img/thumb/nognu.jpg
 ---
 
 ¡Hola gente! como estan? Espero que esten bien, en este video voy a hacer un reto, bueno, no es un reto como tal, pero quiero comprobar algo, la cosa es tener un sistema Linux funcional con interfaz grafica y software de utilidad, o sea, un sistema operativo en forma para trabajar, asi que tener la tty no servira por que no podria trabajar de manera decente, todo esto sin depender en lo absoluto, o al menos de lo mas minimo de GNU.

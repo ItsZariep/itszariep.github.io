@@ -3,7 +3,7 @@ layout: post
 title: "Conviertete en un PRO usando la terminal en linux: Introducción a la linea de comandos"
 date: 2023-04-23
 categories: Informativo Linux
-image: /assets/img/thumb/terminallinux.webp
+image: /assets/img/thumb/terminallinux.jpg
 ---
 
 # Introducción a la Terminal en Linux con Bash

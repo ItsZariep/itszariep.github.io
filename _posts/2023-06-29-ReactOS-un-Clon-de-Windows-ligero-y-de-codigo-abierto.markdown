@@ -3,7 +3,7 @@ layout: post
 title: "ReactOS: un «Clon» de Windows ligero y de código abierto"
 date: 2023-06-29
 categories: [Informativo, "Sistemas Operativos"]
-image: /assets/img/thumb/reactos.webp
+image: /assets/img/thumb/reactos.jpg
 ---
 
 ¡Hola gente! ¿como están? espero que estén bien, en esta ocasión les mostrare a un sistema curiosos y que seguro algunos ya conocerán si han indagado un poco en internet sobre sistemas operativos, curiosos, este  sistema es ReactOS, el cual intenta ser un clon de nada mas y nada menos que del mismísimo Windows, una labor que claramente es bastante compleja por 2 razones.

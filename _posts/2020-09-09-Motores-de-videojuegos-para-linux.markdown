@@ -3,7 +3,7 @@ layout: post
 title: "Motores de videojuegos para Linux"
 date: 2020-09-09
 categories: Informativo Linux
-image: /assets/img/thumb/motoresdevideojuegosparalinux.webp
+image: /assets/img/thumb/motoresdevideojuegosparalinux.jpg
 ---
 
 ¿Usas GNU/Linux y estas interesado en la creación de videojuegos? Eres un desarrollador de videojuegos y quieres usar una distribucion GNU/Linux? ¿Estas buscando un motor de videojuegos para Linux? Pues este post es para ti, pues aquí veremos Motores de videojuegos para Linux asi que sin mas que decir,  ¡empecemos!

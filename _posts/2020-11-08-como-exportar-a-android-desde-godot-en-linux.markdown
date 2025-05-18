@@ -3,7 +3,7 @@ layout: post
 title: "Como exportar a Android desde Godot en Linux"
 date: 2020-11-08
 categories: Tutorial
-image: /assets/img/thumb/exportargodotandroid.webp
+image: /assets/img/thumb/exportargodotandroid.jpg
 ---
 
 ¡Hola gente! como estan? espero que estén bien. En esta ocasión voy a mostrar como exportar juegos de Godot a Android desde Linux.

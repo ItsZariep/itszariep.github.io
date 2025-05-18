@@ -3,7 +3,7 @@ layout: post
 title: "¿Que tipos/variantes del kernel Linux existen?"
 date: 2023-01-29
 categories: Informativo Linux
-image: /assets/img/thumb/tiposdekernel.webp
+image: /assets/img/thumb/tiposdekernel.jpg
 ---
 
 Hola gente, ¿como están? espero que estén bien, si estas un poco metido en el mundo de Linux, lo mas probable es que alguna vez hayas escuchado acerca de kernels custom, o kernels personalizados, kernels con una configuración especifica para cumplir ciertas tareas y/o necesidades, en esta ocasión explicare mas o menos de que van, asi que sin mas que decir, empecemos.

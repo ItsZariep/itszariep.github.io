@@ -3,7 +3,7 @@ layout: post
 title: "Termux: Reemplazar DPKG/APT por pacman"
 date: 2023-02-23
 categories: Android Tutorial
-image: /assets/img/thumb/termuxpacman.webp
+image: /assets/img/thumb/termuxpacman.jpg
 ---
 
 Hola gente, ¿como están? espero que estén bien, en esta ocasión mostrare el sencillo método para reemplazar dpkg/apt (la paqueteria de Debian) por pacman (la paqueteria de Arch Linux) en Termux.
