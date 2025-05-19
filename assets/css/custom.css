@@ -1,0 +1,75 @@
+
+#right-container {
+	width: 30%;
+	padding: 0 0vw 0;
+	margin-left: 0vw;
+	position: sticky;
+	top: 0;
+	align-self: flex-start;
+}
+
+.rp-post-title {
+	font-size: 1.0rem;
+}
+
+.utterances {
+	margin-left: 1vw;
+}
+
+.post {
+	margin-left: 1vw
+}
+
+@media only screen and (max-aspect-ratio: 1/1) {
+
+	.leftpane-portraitscreen {
+		width: 95%;
+	}
+
+	.post {
+		margin: 0 auto;
+		width: 90vw;
+		max-width: 90vw;
+		box-sizing: border-box;
+	}
+
+	#right-container {
+		width: 95%;
+		padding: 0 0vw 0;
+		margin: 0 auto;
+		position: sticky;
+		top: 0;
+		align-self: flex-start;
+	}
+
+	.rp-banner {
+		margin: 0 auto;
+		display: flex;
+	}
+
+	.rp-ytvideo {
+		display: flex;
+		margin: 0 auto;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.rightpaneposts {
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 auto;
+	}
+
+	.userbox {
+		margin: 0 auto;
+	}
+
+	.utterances {
+		margin: 0 auto;
+		width: 90%;
+    }
+}
+
+}
