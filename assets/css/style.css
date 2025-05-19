@@ -360,7 +360,7 @@ hr.endseparator {
 }
 
 .userbox-content h3 {
-	margin: 4px 0 12px 0;
+	margin: 4px 10px 12px 0;
 	font-weight: normal;
 	color: #666;
 }
@@ -829,5 +829,32 @@ button {
 		padding: 0 0vw 0;
 		margin-left: 0vw;
 	}
+
+	.userbox {
+		border-radius: 5px;
+		margin: 0 auto;
+	}
+
+	.rp-banner {
+		display:flex;
+		margin: 0 auto;
+	}
+
+	.rp-ytvideo {
+		display: flex;
+		margin: 0 auto;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.rightpaneposts {
+		width: 75%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 auto;
+	}
+}
+
 
 }

@@ -13,19 +13,21 @@
 	<!-- The search input is sent to the '/search' route. -->
 		{% include searchbar.html %}
 	
-	<iframe width="90%" height="210"
-		src="https://www.youtube-nocookie.com/embed/videoseries?list=UULFpXpA76utFJBs9LdUHuhl-Q"
-		title="YouTube playlist"
-		frameborder="0"
-		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-		allowfullscreen>
-	</iframe>
-	<figcaption>Ultimo video en youtube</figcaption>
+	<div class="rp-ytvideo">
+		<iframe width="90%" height="210"
+			src="https://www.youtube-nocookie.com/embed/videoseries?list=UULFpXpA76utFJBs9LdUHuhl-Q"
+			title="YouTube playlist"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			allowfullscreen>
+		</iframe>
+		<figcaption>Ultimo video en youtube</figcaption>
+	</div>
 
 	<!-- Entries Section -->
 	<!-- Displays a list of recent blog posts. -->
-	<h2>Entries</h2>
 	<div class="rightpaneposts">
+	<h2>Entradas</h2>
 		<ul>
 			<!-- Loop through the latest 5 posts in the site. -->
 			{% for post in site.posts limit:5 %} 
