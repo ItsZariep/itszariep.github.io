@@ -34,4 +34,12 @@ jekyll-archives:
   permalinks:
     category: '/categories/:name/'
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      image: /preview.jpg
+
 date_format: "%d/%m/%Y"
