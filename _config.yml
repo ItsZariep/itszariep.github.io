@@ -3,7 +3,7 @@ email: itszariep@disroot.org
 description: >- # this means to ignore newlines until "baseurl:"
   Blog de ItsZariep
 baseurl: ""
-url: "itszariep.github.io"
+url: "https://itszariep.github.io"
 github_username: itszariep
 
 # Build settings
