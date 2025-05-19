@@ -30,6 +30,27 @@
 
 /* PAGE CONTENTS */
 
+table {
+	width: 95%;
+	border-collapse: collapse;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+	padding: 12px 15px;
+	border: 1px solid var(--grey1);
+	text-align: left;
+}
+
+thead {
+	background-color: var(--accent);
+	color: var(--accentfg);
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--black);
+}
+
 body {
 	background-color: var(--bg);
 	color: var(--fg);
@@ -84,6 +105,13 @@ a:hover {
 	background-color: var(--black);
 	height: 3rem;
 	position: relative;
+}
+
+.ytvideo {
+	display: flex;
+	width: 75%;
+	max-height:100%;
+	margin: auto;
 }
 
 .tp-banner {
@@ -365,6 +393,7 @@ hr.endseparator {
 }
 
 .post-card {
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	border-radius: 8px;
@@ -766,6 +795,7 @@ button {
 
 	.leftpane-portraitscreen {
 		display: block;
+		width: 90%;
 	}
 
 	#posts-container {

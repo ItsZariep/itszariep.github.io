@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Utilicé un CELULAR viejo como una RASPBERRY PI"
-date: 2023-07-29
+date: 2023-07-09
 categories: Android Informativo Tutorial
 image: /assets/img/thumb/samsungpi.jpg
 ---
