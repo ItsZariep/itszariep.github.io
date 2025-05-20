@@ -3,6 +3,7 @@ layout: post
 title: "Transpiladores de código: ¿Qué son y para qué sirven?"
 date: 2024-06-02
 categories: Informativo Programación
+tags: [javascript, python, transpilador]
 image: /assets/img/thumb/transpiladores.jpg
 ---
 

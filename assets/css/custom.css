@@ -1,3 +1,10 @@
+blockquote {
+	color: var(--accenthv);
+	border-left: 4px solid var(--accenthv);
+	background-color: var(--black);
+	border-radius: 6px;
+	padding: 0 1rem 0 1rem;
+}
 
 #right-container {
 	width: 30%;
@@ -26,10 +33,10 @@
 }
 
 .post figcaption {
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-evenly;
-    color: var(--grey1);
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-evenly;
+	color: var(--grey1);
 }
 
 @media only screen and (max-aspect-ratio: 1/1) {

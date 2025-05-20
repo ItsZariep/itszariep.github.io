@@ -40,11 +40,11 @@ RADV_PERFTEST=rt,emulate_rt
 VKD3D_CONFIG=dxr
 ```
 
-Steam:
 ![Steam]({{ site.baseurl }}/assets/img/content/emularmdlinux6.webp)
+<figcaption>Steam</figcaption>
 
-Heroic:
 ![Heroic]({{ site.baseurl }}/assets/img/content/emularmdlinux5.webp)
+<figcaption>Heroic</figcaption>
 
 ## Detalles a tener en cuenta:
 
@@ -55,17 +55,17 @@ Al ser instrucciones emuladas con shaders, el rendimiento no es el mejor, en mi 
 ## Comparación:
 
 
-Con RTX:
 ![Heroic]({{ site.baseurl }}/assets/img/content/emularmdlinux4.webp)
+<figcaption>Con RTX</figcaption>
 
-Sin RTX
 ![Heroic]({{ site.baseurl }}/assets/img/content/emularmdlinux3.webp)
+<figcaption>Sin RTX</figcaption>
 
-Con RTX
 ![Heroic]({{ site.baseurl }}/assets/img/content/emularmdlinux1.webp)
+<figcaption>Con RTX</figcaption>
 
-Sin RTX
 ![Heroic]({{ site.baseurl }}/assets/img/content/emularmdlinux2.webp)
+<figcaption>Sin RTX</figcaption>
 
 ## Video de muestra
 
