@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Cómo subir una pagina web a SourceForge
-"
+title: "Cómo subir una pagina web a SourceForge"
 date: 2022-02-26
 categories: Tutorial
 image: /assets/img/thumb/sfpage.jpg

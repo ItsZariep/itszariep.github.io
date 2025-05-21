@@ -2,7 +2,7 @@
 layout: post
 title: "Abrir juegos con DirectX 9 en Linux (Wine) (Sin perdida de rendimento)"
 date: 2024-08-13
-categories: Tutorial Linux
+categories: Linux Tutorial
 image: /assets/img/thumb/galliumnine.jpg
 ---
 

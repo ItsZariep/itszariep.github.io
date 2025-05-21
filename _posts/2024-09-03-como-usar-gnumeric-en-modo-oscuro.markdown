@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo usar Gnumeric en modo oscuro"
 date: 2024-09-03
-categories: Tutorial Linux
+categories: Linux Tutorial
 tags: [gnu, gnumeric, linux, windows]
 image: /assets/img/thumb/gnumericoscuro.jpg
 ---

@@ -70,6 +70,4 @@ En la actualidad, la gran mayoría de sistemas operativos cuentan con un bootloa
 El bootloader es un programa esencial en sistemas operativos modernos que permite iniciar el sistema operativo de forma apropiada, dar características avanzadas y permitir administrar el arranque de varios
 sistemas operativos en la computadora.
 
-https://youtu.be/Jgjz64H3BVc
-
-<iframe width="560" height="315" class="ytvideo" src="https://youtu.be/Jgjz64H3BVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" class="ytvideo" src="https://www.youtube-nocookie.com/embed/Jgjz64H3BVc?si=s6KBDVWeLFTrfTvW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

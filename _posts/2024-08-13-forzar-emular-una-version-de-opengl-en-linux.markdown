@@ -2,7 +2,7 @@
 layout: post
 title: "Forzar / Emular una versión de OpenGL en Linux"
 date: 2024-08-13
-categories: Tutorial Linux
+categories: Linux Tutorial
 image: /assets/img/thumb/gloverride.jpg
 ---
 

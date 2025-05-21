@@ -32,6 +32,11 @@ blockquote {
 	margin: 0 auto;
 }
 
+.rp-ytvideo figcaption {
+	margin: 0px 0px 0px 5px;
+	color: var(--grey1);
+}
+
 .post figcaption {
 	display: flex;
 	margin: 0 auto;

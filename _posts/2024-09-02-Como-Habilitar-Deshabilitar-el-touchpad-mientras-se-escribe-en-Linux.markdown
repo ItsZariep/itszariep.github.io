@@ -2,7 +2,7 @@
 layout: post
 title: "Cómo Habilitar / Deshabilitar el touchpad mientras se escribe en Linux"
 date: 2024-09-02
-categories: Tutorial Linux
+categories: Linux Tutorial
 tags: [linux, touchpad, wayland, xorg]
 image: /assets/img/thumb/habilitartouchpad.jpg
 ---

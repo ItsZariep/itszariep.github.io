@@ -24,6 +24,8 @@ plugins:
   - jekyll-paginate
   - jekyll-archives
 
+permalink: /:title.html
+
 paginate: 9
 paginate_path: "/page:num/"
 
