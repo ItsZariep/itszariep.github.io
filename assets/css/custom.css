@@ -6,6 +6,10 @@ blockquote {
 	padding: 0 1rem 0 1rem;
 }
 
+.tp-dropdown-elements {
+	right: -20px;
+}
+
 #right-container {
 	width: 30%;
 	padding: 0 0vw 0;
@@ -30,6 +34,7 @@ blockquote {
 .ytvideo {
 	display: flex;
 	margin: 0 auto;
+	max-width: 95%
 }
 
 .rp-ytvideo figcaption {
