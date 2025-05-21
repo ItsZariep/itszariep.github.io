@@ -10,6 +10,10 @@ blockquote {
 	right: -20px;
 }
 
+.post-card {
+	background-color: var(--black);
+}
+
 #right-container {
 	width: 30%;
 	padding: 0 0vw 0;

@@ -37,11 +37,18 @@ jekyll-archives:
     category: '/categories/:name/'
 
 defaults:
-  -
+  - 
     scope:
       path: ""
       type: "pages"
     values:
+      image: /preview.jpg
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "ItsZariep"
       image: /preview.jpg
 
 date_format: "%d/%m/%Y"

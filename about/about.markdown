@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
 Hola, soy Zariep, un youtuber (desde 2019), programador (desde 2017) y usuario de Linux (desde 2015)

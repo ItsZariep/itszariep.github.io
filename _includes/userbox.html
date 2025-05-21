@@ -1,11 +1,11 @@
 <!--Your personal box at the end of each post-->
 
 <div class="userbox">
-	<img class="userpic" src="{{ '/assets/img/avatar.webp' | relative_url }}" alt="Avatar">
+	<img class="userpic" src="{{ '/assets/img/authors/' | append: page.author | append: '.webp' | relative_url }}" alt="Avatar">
 	<div class="userbox-content">
-		<h1>ItsZariep</h1>
-		<h3>Youtuber y programador, usando Linux desde 2015</h3>
-		<a href="{{ '/about/' | relative_url }}">Acerca de mi</a>
+		<h1>{{ page.author }}</h1>
+		<h3>{% include authors.html author=page.author %}</h3>
+		<a href="{{ '/about/' | append: page.author | relative_url }}">Acerca de mi</a>
 	</div>
 </div>
 <br>
