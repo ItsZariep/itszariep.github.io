@@ -53,6 +53,10 @@ blockquote {
 	color: var(--grey1);
 }
 
+.post-image-wrapper {
+	padding-top: 56.25%;
+}
+
 @media only screen and (max-aspect-ratio: 1/1) {
 
 	.leftpane-portraitscreen {
