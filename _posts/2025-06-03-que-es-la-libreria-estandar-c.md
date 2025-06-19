@@ -7,16 +7,16 @@ tags: [glibc, musl]
 image: /assets/img/thumb/libc.jpg
 ---
 
-Hola gente como estan espero que esten bien.
+¡Hola gente! ¿como están? espero que esten bien.
 
-En el núcleo de casi todos los sistemas operativos modernos que siguen la tradición de Unix —como Linux, BSD, macOS y muchos entornos embebidos— se encuentra una pieza fundamental del ecosistema de software: la libreria C, comúnmente conocida como la *C Standard Library* (libc). Más que una colección de funciones de utilidad, la libreria C actúa como una capa crítica de abstracción entre el hardware y el software, y entre el kernel del sistema operativo y las aplicaciones de usuario. Este ensayo explora en profundidad qué es la libreria C, cómo se implementa en un sistema operativo, y cuál es su papel central en la arquitectura de software moderna.
+En el núcleo de casi todos los sistemas operativos modernos que siguen la tradición de Unix , como Linux, BSD, macOS y muchos entornos embebidos,  se encuentra una pieza fundamental del ecosistema de software: la libreria C, comúnmente conocida como la *C Standard Library* (libc). Más que una colección de funciones de utilidad, la libreria C actúa como una capa crítica de abstracción entre el hardware y el software, y entre el kernel del sistema operativo y las aplicaciones de usuario. Este ensayo explora en profundidad qué es la libreria C, cómo se implementa en un sistema operativo, y cuál es su papel central en la arquitectura de software moderna.
 
 
 ## **1. Definición y Propósito de la libreria C**
 
 La libreria C (libc) es una colección estandarizada de funciones desarrolladas originalmente para el lenguaje de programación C, definidas por el estándar ISO C. Proporciona interfaces para operaciones fundamentales como manejo de memoria, entrada/salida, manejo de cadenas, matemáticas, procesos y señales, entre otras.
 
-Aunque es parte del lenguaje C, su implementación depende directamente del sistema operativo sobre el que corre. Las librerias C más conocidas —como GNU C Library (*glibc*), *musl*, *uClibc*, *dietlibc*, y *newlib*— son componentes esenciales de cualquier entorno de ejecución en C, y sirven además como la base de compatibilidad para lenguajes como C++, Rust o Go, cuando estos interactúan con la plataforma a bajo nivel.
+Aunque es parte del lenguaje C, su implementación depende directamente del sistema operativo sobre el que corre. Las librerias C más conocidas, como GNU C Library (*glibc*), *musl*, *uClibc*, *dietlibc*, y *newlib*,  son componentes esenciales de cualquier entorno de ejecución en C, y sirven además como la base de compatibilidad para lenguajes como C++, Rust o Go, cuando estos interactúan con la plataforma a bajo nivel.
 
 ## **2. Relación entre la libreria C y el Sistema Operativo**
 
@@ -74,7 +74,7 @@ Optimizada para sistemas embebidos sin sistema operativo tradicional. Se utiliza
 
 ## **6. Vulnerabilidades y Seguridad**
 
-Por ser una capa tan crítica, la libc es blanco frecuente de exploits. Errores en funciones como `strcpy` o `gets` —que no verifican límites— han sido históricamente causantes de vulnerabilidades de seguridad. Esto ha motivado la adopción de prácticas como:
+Por ser una capa tan crítica, la libc es blanco frecuente de exploits. Errores en funciones como `strcpy` o `gets` , que no verifican límites,  han sido históricamente causantes de vulnerabilidades de seguridad. Esto ha motivado la adopción de prácticas como:
 
 * Reemplazo de funciones inseguras (`strncpy` en lugar de `strcpy`)
 * Mitigaciones como *stack canaries*, *ASLR*, *DEP*

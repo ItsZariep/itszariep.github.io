@@ -6,6 +6,12 @@ categories: Linux Tutorial
 image: /assets/img/thumb/galliumnine.jpg
 ---
 
+> **Advertencia:**
+> Este artículo está desactualizado y ya no es aplicable a ninguna distribución Linux moderna, ya que [Mesa retiró estos drivers a partir de la versión 25.2](https://www.phoronix.com/news/Gallium-Nine-Deprecated). El contenido se conserva en el blog únicamente con fines históricos.
+
+
+---
+
 ¡Hola gente! ¿Cómo están? espero que estén bien, en está ocasión voy a mostrar como ejecutar programas y juegos de Windows que usen directx 9, esto mediante wine pero sin dxvk ni wined3d, si no que propiamente con directx, sin intermediarios, esto es gracias a wine-nine y los drivers Gallium de Mesa.
 
 Esto es especialmente util en hardware viejo que no soporta tecnologias modernas y wined3d causa una penalización de rendimiento.
