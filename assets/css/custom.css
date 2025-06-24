@@ -57,6 +57,10 @@ blockquote {
 	padding-top: 56.25%;
 }
 
+.post-postcontent img {
+	border-radius: 16px;
+}
+
 @media only screen and (max-aspect-ratio: 1/1) {
 
 	.userbox-content h3 {
