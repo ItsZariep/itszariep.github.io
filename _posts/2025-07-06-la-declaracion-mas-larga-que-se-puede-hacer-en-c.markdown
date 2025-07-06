@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "la Declaración Más Larga que se puede hacer en C"
-date: 2025-06-27
+date: 2025-07-06
 categories: [Programación]
 tags: ["C", "Programación"]
 image: /assets/img/thumb/declaracionmaslargac.jpg
