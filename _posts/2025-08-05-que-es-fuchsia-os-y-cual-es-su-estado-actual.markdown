@@ -84,4 +84,4 @@ Si bien aún no es un sistema operativo de consumo masivo en móviles o PCs, Fuc
 
 Y ustedes, ya conocían a Fucsia OS? dejenme su opinión en los comentarios, eso fué todo, adiós
 
-<iframe width="560" height="315" class="ytvideo" src="https://www.youtube-nocookie.com/embed/3MpOqKOrJoU?si=s6KBDVWeLFTrfTvW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube.html id="3MpOqKOrJoU" %}
