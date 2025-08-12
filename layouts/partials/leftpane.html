@@ -1,0 +1,6 @@
+<!-- Right Pane -->
+
+<div id="left-container" class="{{ if ne .Type "posts" }}hidden{{ end }}">
+	{{ partial "searchbar.html" . }}
+	{{ partial "posttoc.html" . }}
+</div>

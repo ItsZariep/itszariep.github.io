@@ -22,6 +22,9 @@ blockquote {
 	top: 0;
 	align-self: flex-start;
 }
+#left-container .search-box {
+	display: none;
+}
 
 .rp-post-title {
 	font-size: 1.0rem;
@@ -61,7 +64,11 @@ blockquote {
 	border-radius: 16px;
 }
 
-@media only screen and (max-aspect-ratio: 1/1) {
+@media only screen and (max-width: 768px) and (max-aspect-ratio: 1/1) {
+
+	#left-container .search-box {
+		display: flex;
+	}
 
 	.userbox-content h3 {
 		margin: 4px 5px 12px 0;
