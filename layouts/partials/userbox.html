@@ -1,0 +1,13 @@
+<!-- Your personal box at the end of each post -->
+
+{{ $author := .Params.author | default .Site.Params.author }}
+
+<div class="userbox">
+	<img class="userpic" src="{{ (print "/img/authors/" $author ".webp") | relURL }}" alt="Avatar">
+	<div class="userbox-content">
+		<h1>{{ $author }}</h1>
+		<h3>{{ partial "authors.html" (dict "author" $author) }}</h3>
+		<a href="{{ (print "/about/about") | relURL }}">Acerca de mi</a>
+	</div>
+</div>
+<br>

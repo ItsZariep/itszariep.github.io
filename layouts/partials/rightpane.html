@@ -1,0 +1,53 @@
+<!-- Right Pane -->
+
+<div id="right-container">
+
+	<!-- Banner (can be image or text) -->
+	<!-- <img class="rp-banner" src="{{ "assets/img/banner.svg" | relURL }}" width="100%" /> -->
+			<a href="{{ "/" | relURL }}">
+			<img class="rp-banner" src="{{ "/img/banner.webp" | relURL }}" width="90%" />
+			</a>
+
+	<!-- Search Form -->
+	{{ partial "searchbar.html" . }}
+
+	<div class="rp-ytvideo">
+		<iframe width="90%" height="210"
+			src="https://www.youtube-nocookie.com/embed/videoseries?list=UULFpXpA76utFJBs9LdUHuhl-Q"
+			title="YouTube playlist"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+			allowfullscreen>
+		</iframe>
+		<figcaption>Ultimo video en youtube</figcaption>
+	</div>
+
+	<!-- Entries Section -->
+	<h2>Entradas</h2>
+	<div class="rightpaneposts">
+		<ul>
+			{{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+				<li>
+					<a class="rp-post-link" href="{{ .RelPermalink }}">
+						<h6 class="rp-post-title">{{ .Title }}</h6>
+					</a>
+				</li>
+			{{ end }}
+		</ul>
+	</div>
+
+	<!-- Categories Section -->
+	<h2>Categorias</h2>
+	<ul>
+		{{ $categories := .Site.Taxonomies.categories }}
+		{{ range $name, $pages := $categories }}
+		<li>
+			<a class="rp-post-link" href="{{ "/categories/" | relURL }}{{ $name | urlize }}/">
+			<h4 class="rp-post-title">{{ $name }}</h4>
+			</a>
+		</li>
+		{{ end }}
+	</ul>
+
+
+</div>

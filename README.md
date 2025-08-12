@@ -1,1 +1,0 @@
-# [itszariep.github.io](itszariep.github.io)

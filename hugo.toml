@@ -1,0 +1,41 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Blog de ItsZariep'
+theme = 'Tessera'
+enableSymlinks = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+
+[permalinks]
+posts = "/:slug/"
+
+[pagination]
+  pagerSize = 9
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+
+[params]
+  author = "ItsZariep"
+
+  [[params.social_links]]
+    name = "Codeberg"
+    url = "https://codeberg.org/itszariep"
+
+  [[params.social_links]]
+    name = "GitHub"
+    url = "https://github.com/itszariep"
+
+  [[params.social_links]]
+    name = "Telegram"
+    url = "https://t.me/IsZariep"
+
+  [[params.social_links]]
+    name = "Youtube"
+    url = "https://youtube.com/@itszariep"

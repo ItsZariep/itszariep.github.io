@@ -1,0 +1,41 @@
+<!-- Top Pane (Navbar?) -->
+
+<div class="toppanel">
+	<!-- Left side of the pane, usually only has a title or logo -->
+	<div class="tp-left">
+		<a href="{{ "/" | relURL }}">
+			<img class="tp-banner" src="{{ "/img/banner.webp" | relURL }}" width="100%" />
+		</a>
+		<!--<h1>{{ .Site.Title }}</h1> -->
+	</div>
+
+	<!-- Burger menu using checkbox hack (for mobile, without using JS) -->
+	<input type="checkbox" id="burger-toggle" class="burger-checkbox">
+	<label for="burger-toggle" class="burger-menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	</label>
+
+	<!-- Right side of the pane, usually has the navigation buttons, this example also has sub-elements -->
+	<div class="tp-right" id="mobile-menu">
+		<ul class="tp-nav">
+			<li><a href="{{ "/" | relURL }}">Inicio</a></li>
+			<li><a href="{{ "/about/about" | relURL }}">Acerca de</a></li>
+			<li class="tp-dropdown">
+				<input type="checkbox" id="social-toggle" class="dropdown-checkbox">
+				<label for="social-toggle">Redes</label>
+				<!-- Lists all site social links, declare it on your config.toml/yaml -->
+				<ul class="tp-dropdown-elements">
+					{{ range .Site.Params.social_links }}
+					<li>
+						<a href="{{ .url }}" target="_blank" aria-label="{{ .name }}">
+							{{ .name }}
+						</a>
+					</li>
+					{{ end }}
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
