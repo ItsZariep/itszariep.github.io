@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cómo empezar con tmux y ser mas eficiente en la terminal"
-date: 2025-08-12
+date: 2025-08-16
 categories: [Tutorial]
 image: /img/thumb/guia-tmux.jpg
 ---
