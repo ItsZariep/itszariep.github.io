@@ -20,7 +20,7 @@ image: /img/thumb/guia-tmux.jpg
 Es como tener varias “ventanas” y “pestañas” dentro de la misma terminal, y poder organizarlas según la necesidad.
 
 
-#n casi cualquier sistema, el paquete `tmux` es instalable desde el gestor de paquetes, también se puede compilar el [código fuente](https://github.com/tmux/tmux/wiki)
+En casi cualquier sistema, el paquete `tmux` es instalable desde el gestor de paquetes, también se puede compilar el [código fuente](https://github.com/tmux/tmux/wiki)
 
 ## Conceptos básicos
 
@@ -269,6 +269,7 @@ set -g set-titles-string "#W"
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run '~/.tmux/plugins/tpm/tpm'
 ```
+
 ## Uso avanzado
 
 ### Nombres y scripts

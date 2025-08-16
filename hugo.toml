@@ -1,6 +1,6 @@
 baseURL = 'https://itszariep.github.io'
 languageCode = 'en-us'
-title = 'Blog de ItsZariep'
+title = 'ItsZariep'
 theme = 'Tessera'
 enableSymlinks = true
 
