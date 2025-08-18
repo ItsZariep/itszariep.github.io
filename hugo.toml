@@ -19,7 +19,7 @@ enableSymlinks = true
     isPlainText = true
 
 [permalinks]
-posts = "/:filename/"
+posts = "/:slug/"
 
 [pagination]
   pagerSize = 9
