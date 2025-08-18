@@ -82,6 +82,4 @@ Fuchsia OS representa varias **mejoras en la arquitectura de sistemas operativos
 
 Si bien aún no es un sistema operativo de consumo masivo en móviles o PCs, Fuchsia sigue en desarrollo continuo. Su compatibilidad con apps existentes y desarrollo abierto lo convierten en un proyecto de gran impacto para el futuro de los SO. lo que sugiere que Google lo impulsará como laboratorio de innovación, y quizás, en unos años, hacia una adopción más amplia.
 
-Y ustedes, ya conocían a Fucsia OS? dejenme su opinión en los comentarios, eso fué todo, adiós
-
 {{< youtube 3MpOqKOrJoU >}}

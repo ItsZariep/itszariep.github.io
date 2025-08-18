@@ -18,9 +18,8 @@ enableSymlinks = true
     baseName = "feed"
     isPlainText = true
 
-
 [permalinks]
-posts = "/:slug/"
+posts = "/:filename/"
 
 [pagination]
   pagerSize = 9

@@ -101,6 +101,4 @@ En abril también compré una PC usada con un Ryzen 3 y le puse una R5 240 que t
 
 En resumen, aunque mi experiencia con Linux no fue la más común, me encantó. Me enamoré del sistema y hoy es lo que uso todos los días. No me da para vivir porque no trabajo con la PC, pero sí es algo que disfruto muchísimo en mis ratos libres.
 
-¿Y ustedes? ¿Con qué distro empezaron? ¿Tuvieron algún contratiempo? Déjenme su opinión en los comentarios. ¡Eso fue todo! ¡Adiós!
-
 {{< youtube Ge5M9LYqbdo >}}
