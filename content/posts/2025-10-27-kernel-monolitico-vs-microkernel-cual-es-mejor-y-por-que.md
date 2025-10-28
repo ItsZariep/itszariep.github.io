@@ -74,7 +74,7 @@ El **microkernel** adopta una filosofía opuesta: solo incluye en el núcleo las
 
 La diferencia entre kernel monolítico y microkernel es una cuestión de rendimiento y modularidad. El modelo monolítico es eficiente y práctico en sistemas de propósito general, como Linux, debido a su alta velocidad y amplia compatibilidad. En cambio, el microkernel suele ser mas atractivo en entornos críticos donde la seguridad, estabilidad y tolerancia a fallos son prioritarias, como en muchos sistemas embebidos.
 
-No existe un “mejor” absoluto; la elección depende del contexto: para servidores y escritorios, los núcleos monolíticos siguen dominando, mientras que para sistemas con altos requerimientos de confiabilidad y portabilidad, los microkernels presentan ventajas sustanciales. El futuro probablemente combine ambos enfoques (por ejemplo Linux tiene los modulos DKMS), buscando un equilibrio entre **eficiencia** y **seguridad**.
+No existe un “mejor” absoluto; la elección depende del contexto: para servidores y escritorios, los núcleos monolíticos siguen dominando, mientras que para sistemas con altos requerimientos de confiabilidad y portabilidad, los microkernels presentan ventajas sustanciales. Algunos kernels incluso son híbridos y combinan ambos enfoques, buscando un equilibrio entre **eficiencia** y **seguridad**.
 
 
 {{< youtube Cv51pO8f6sA >}}
