@@ -64,6 +64,10 @@ blockquote {
 	border-radius: 16px;
 }
 
+.hidden-ws {
+	display:none;
+}
+
 @media only screen and (max-width: 768px) and (max-aspect-ratio: 1/1) {
 
 	#left-container .search-box {

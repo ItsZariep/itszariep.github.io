@@ -72,6 +72,10 @@ Este registro de eventos es crucial para la seguridad en entornos multiusuario.
 
 sudo permite definir qué comandos puede ejecutar cada usuario sin necesidad de otorgarle acceso completo a root. Esto se gestiona a través del archivo `/etc/sudoers`, donde se pueden configurar reglas como:
 
+```
+user1 ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart apache2
+```
+
 Esta regla permite que user1 reinicie el servicio Apache sin necesidad de ingresar su contraseña ni obtener acceso total al sistema.
 
 ### Uso de autenticación basada en usuario 
