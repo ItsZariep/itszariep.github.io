@@ -70,6 +70,10 @@ blockquote {
 
 @media only screen and (max-width: 768px) and (max-aspect-ratio: 1/1) {
 
+	.hidden-ws {
+		display:inherit !important;
+	}
+
 	#left-container .search-box {
 		display: flex;
 	}
