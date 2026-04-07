@@ -16,7 +16,7 @@ Más allá de ser una mera capa de compatibilidad, el VFS es mas como una arquit
 
 En esta ocasión itentaré explicar de manera sencilla, que es el VFS, como funciona y cuales son sus usos en sistemas modernos, y aunque en general aplica para casi cualquier unix-like, me enfocaré en linux por ser el sistema que mas conozco, asi que sin mas que decir, comencemos .
 
-### Fundamentos Conceptuales del VFS
+## Fundamentos Conceptuales del VFS
 
 El VFS define una interfaz abstracta que debe ser implementada por cada sistema de archivos que desee integrarse al kernel. Esta interfaz está compuesta por estructuras de datos y operaciones estándar que encapsulan el comportamiento de archivos, directorios, nodos y superblocs.
 
@@ -37,7 +37,7 @@ El núcleo del modelo VFS gira en torno a cuatro estructuras clave:
 
 Estas estructuras interactúan para proporcionar una interfaz coherente y eficiente. Cuando un proceso ejecuta, por ejemplo, `open()`, el VFS coordina la resolución de nombre (mediante dentries), obtiene el *inode* correspondiente, crea una estructura *file* y asocia las operaciones adecuadas del sistema de archivos subyacente.
 
-### Arquitectura y Flujo de Operaciones
+## Arquitectura y Flujo de Operaciones
 
 El flujo general de una operación en el VFS puede resumirse en los siguientes pasos:
 
@@ -59,14 +59,14 @@ El flujo general de una operación en el VFS puede resumirse en los siguientes p
    El VFS mantiene diversas cachés (páginas, dentries, inodes) para minimizar el acceso a disco y coordina la coherencia de datos mediante el subsistema de memoria y *writeback*.
 
 
-### La Abstracción del Montaje
+## La Abstracción del Montaje
 
 El VFS también gestiona la **jerarquía de montaje**. Cada punto de montaje se representa mediante una estructura `vfsmount` que asocia un *super_block* con una posición dentro del árbol global de directorios. Así, el VFS construye una **vista unificada del espacio de nombres del sistema**, donde distintos sistemas de archivos pueden coexistir de manera transparente.
 
 Por ejemplo, el árbol raíz (`/`) puede residir en un sistema `ext4`, mientras que `/home` puede ser un volumen NFS y `/proc` un sistema virtual generado en memoria. El VFS es responsable de mantener la coherencia de las operaciones entre estos espacios heterogéneos.
 
 
-### Mecanismos de Extensibilidad
+## Mecanismos de Extensibilidad
 
 
 La arquitectura modular del VFS permite añadir nuevos sistemas de archivos sin alterar el código existente del kernel. Un desarrollador puede implementar las estructuras de operaciones y registrarlas mediante la interfaz del kernel (`register_filesystem()`), definiendo cómo se montará y qué operaciones soportará.
@@ -77,7 +77,7 @@ Entonces, el VFS sirve de base para capas superiores como:
 * **Pseudo-filesystems**: como `/proc` (interfaz con procesos y kernel), `/sys` (sysfs), o `/dev` (udev), que exponen información del kernel y dispositivos en forma de archivos.
 * **Redirfs** y **FUSE (Filesystem in Userspace)**: permiten implementar sistemas de archivos en espacio de usuario con soporte del VFS.
 
-### Consideraciones de Rendimiento y Diseño
+## Consideraciones de Rendimiento y Diseño
 
 El diseño del VFS combina eficiencia y flexibilidad mediante tres estrategias clave:
 
@@ -91,7 +91,7 @@ El diseño del VFS combina eficiencia y flexibilidad mediante tres estrategias c
    El VFS coopera con la capa de gestión de memoria y page cache para unificar el almacenamiento de datos de archivos y páginas virtuales, evitando redundancias.
 
 
-### Conclusión
+## Conclusión
 
 El Virtual File System (VFS) es uno de los componetes más refinados del kernel Linux. Su diseño modular y su capacidad para abstraer la diversidad de los sistemas de archivos lo convierten en un elemento central del modelo Linux y Unix contemporáneo.
 Actúa como mediador entre la semántica de alto nivel de las operaciones sobre archivos y las implementaciones específicas de cada sistema de almacenamiento, garantizando uniformidad, extensibilidad y rendimiento.
