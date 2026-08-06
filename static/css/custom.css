@@ -68,6 +68,21 @@ blockquote {
 	display:none;
 }
 
+table img {
+	max-width: 64px;
+}
+
+#d {
+	border-width: 2px 0px 2px 0;
+	padding: 5px 0px 5px 0;
+	border-style: solid;
+	border-color: var(--accenthv);
+}
+
+#d img {
+	width: 12rem;
+}
+
 @media only screen and (max-width: 768px) and (max-aspect-ratio: 1/1) {
 
 	.hidden-ws {

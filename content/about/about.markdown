@@ -13,6 +13,10 @@ Ademas de la programación y los sistemas operativos, disfruto bastante de video
 
 ---
 
-Este blog usa [Hugo](https://gohugo.io), un generador de sitios estáticos, con el tema [Tessera](https://codeberg.org/ItsZariep/Tessera), creado por mí.
+| Este sitio usa |  |
+| --- | --- |
+| **[![Hugo](https://raw.githubusercontent.com/gohugoio/hugo/refs/heads/master/docs/static/mstile-144x144.png) Hugo](https://gohugo.io/)** | Un generador de sitios estáticos |
+| **[![Tessera](https://raw.githubusercontent.com/ItsZariep/Tessera/main/assets/img/authors/Tessera.webp) Tessera](https://codeberg.org/ItsZariep/Tessera)** | Tema para Hugo creado por mi |
+| **[![Utterances](https://raw.githubusercontent.com/utterance/utterances/master/src/icons/android-chrome-256x256.png) Utterances](https://utteranc.es/)** | Un widget de comentarios ligero basado en insidencias de Github |
 
 Puedes ver el código fuente de la página y los cambios realizados al tema Tessera para este sitio en [el código fuente del blog](https://github.com/ItsZariep/itszariep.github.io).

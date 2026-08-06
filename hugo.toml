@@ -34,6 +34,13 @@ posts = "/:slug/"
   author = "ItsZariep"
 
   [[params.social_links]]
+    name = "LiberaPay"
+    url = "https://liberapay.com/zariep/"
+  [[params.social_links]]
+    name = "Ko-fi"
+    url = "https://ko-fi.com/itszariep"
+
+  [[params.social_links]]
     name = "Codeberg"
     url = "https://codeberg.org/itszariep"
 
