@@ -73,17 +73,37 @@ table img {
 }
 
 #d {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	align-items: center;
+	justify-content: left;
 	border-width: 2px 0px 2px 0;
-	padding: 5px 0px 5px 0;
+	padding: 8px 0px;
 	border-style: solid;
 	border-color: var(--accenthv);
+	width: 100%;
 }
 
 #d img {
-	width: 12rem;
+	width: 100%;
+	width: 10rem;
+	max-width: 10rem;
+	min-width: 10rem;
+	height: auto;
+	display: block;
 }
 
+/* Responsive adjustments for mobile / narrow portrait screens */
 @media only screen and (max-width: 768px) and (max-aspect-ratio: 1/1) {
+	#d {
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	#d img {
+		max-width: 10rem;
+	}
 
 	.hidden-ws {
 		display:inherit !important;
