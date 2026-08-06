@@ -1,5 +1,5 @@
 baseURL = 'https://itszariep.github.io'
-languageCode = 'en-us'
+locale = 'es-MX'
 title = 'ItsZariep'
 theme = 'Tessera'
 enableSymlinks = true
