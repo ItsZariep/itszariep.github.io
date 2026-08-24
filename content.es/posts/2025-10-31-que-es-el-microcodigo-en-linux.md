@@ -90,7 +90,7 @@ A pesar de sus ventajas, el uso del microcódigo plantea algunos desafíos:
 - Confianza: como el microcódigo es software propietario, los usuarios de Linux defensores del software libre deben aceptar un componente cerrado en un ecosistema abierto.
 
 ## Otras arquitecturas
-A pesar de que esté video está centrado en x86/x86_64, en otras arquitecturas tambien puede haber codigo y funcionan de manera similar, son mas descentralizados y menos comunes, asi que incluir a ARM o RISC-V trataria tocar temas como su distribución (que suele ser independiente si hay) o instalación particular.
+A pesar de que esté articulo está centrado en x86/x86_64, en otras arquitecturas tambien puede haber codigo y funcionan de manera similar, son mas descentralizados y menos comunes, asi que incluir a ARM o RISC-V trataria tocar temas como su distribución (que suele ser independiente si hay) o instalación particular.
 
 ## Conclusión
 

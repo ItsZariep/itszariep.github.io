@@ -1,0 +1,18 @@
+[home]
+other = "Home"
+[about]
+other = "About"
+[social]
+other = "Social"
+[rss]
+other = "RSS"
+[latest_video]
+other = "Latest YouTube video"
+[entries]
+other = "Entries"
+[categories]
+other = "Categories"
+[about_me_link]
+other = "About me"
+[author_bio_itszariep]
+other = "Youtuber and programmer, using Linux since 2015"

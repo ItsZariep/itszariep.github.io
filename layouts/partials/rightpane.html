@@ -1,16 +1,12 @@
 <!-- Right Pane -->
-
 <div id="right-container">
-
-	<!-- Banner (can be image or text) -->
-	<!-- <img class="rp-banner" src="{{ "assets/img/banner.svg" | relURL }}" width="100%" /> -->
-			<a href="{{ "/" | relURL }}">
-			<img class="rp-banner" src="{{ "/img/banner.webp" | relURL }}" width="90%" />
-			</a>
-
+	<a href="{{ "/" | relLangURL }}">
+		<img class="rp-banner" src="{{ "/img/banner.webp" | relURL }}" width="90%" />
+	</a>
 	<!-- Search Form -->
 	{{ partial "searchbar.html" . }}
 
+	{{ if eq .Site.Language.Lang "es" }}
 	<div class="rp-ytvideo">
 		<iframe width="90%" height="210"
 			src="https://www.youtube-nocookie.com/embed/videoseries?list=UULFpXpA76utFJBs9LdUHuhl-Q"
@@ -19,11 +15,12 @@
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
 			allowfullscreen>
 		</iframe>
-		<figcaption>Ultimo video en youtube</figcaption>
+		<figcaption>{{ i18n "latest_video" }}</figcaption>
 	</div>
+	{{ end }}
 
 	<!-- Entries Section -->
-	<h2>Entradas</h2>
+	<h2>{{ i18n "entries" }}</h2>
 	<div class="rightpaneposts">
 		<ul>
 			{{ range first 5 (where .Site.RegularPages "Section" "posts") }}
@@ -37,17 +34,15 @@
 	</div>
 
 	<!-- Categories Section -->
-	<h2>Categorias</h2>
+	<h2>{{ i18n "categories" }}</h2>
 	<ul>
 		{{ $categories := .Site.Taxonomies.categories }}
 		{{ range $name, $pages := $categories }}
 		<li>
-			<a class="rp-post-link" href="{{ "/categories/" | relURL }}{{ $name | urlize }}/">
+			<a class="rp-post-link" href="{{ (printf "/categories/%s/" ($name | urlize)) | relLangURL }}">
 			<h4 class="rp-post-title">{{ $name }}</h4>
 			</a>
 		</li>
 		{{ end }}
 	</ul>
-
-
 </div>

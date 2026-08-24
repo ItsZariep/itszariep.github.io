@@ -1,0 +1,11 @@
+<!--
+This component is intended for users who need to use a custom image
+without having to alter the entire postcontent.html
+-->
+
+<div class="post-img">
+	{{ with .Params.image }}
+		<img src="{{ . | relURL }}" alt="{{ $.Title }}" />
+	{{ end }}
+	{{ partial "posttoc.html" . }}
+</div>

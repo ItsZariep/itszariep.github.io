@@ -1,57 +1,73 @@
-baseURL = 'https://itszariep.github.io'
-locale = 'es-MX'
+baseURL = 'https://zariep.com'
 title = 'ItsZariep'
 theme = 'Tessera'
 enableSymlinks = true
+defaultContentLanguage = 'es'
+defaultContentLanguageInSubdir = false
 
 [caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+[caches.images]
+	dir = ':cacheDir/images'
 
 [mediaTypes]
-  [mediaTypes."application/rss+xml"]
-    suffixes = ["xml"]
+[mediaTypes."application/rss+xml"]
+	suffixes = ["xml"]
 
 [outputFormats]
-  [outputFormats.RSS]
-    mediaType = "application/rss+xml"
-    baseName = "feed"
-    isPlainText = true
+[outputFormats.RSS]
+	mediaType = "application/rss+xml"
+	baseName = "feed"
+	isPlainText = true
 
 [permalinks]
 posts = "/:slug/"
 
 [pagination]
-  pagerSize = 9
+pagerSize = 9
 
 [markup]
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 3
-    ordered = false
+[markup.tableOfContents]
+	startLevel = 2
+	endLevel = 3
+	ordered = false
+
+[languages]
+	[languages.es]
+		label = "Español"
+		locale = "es-MX"
+		weight = 1
+		title = "ItsZariep"
+		contentDir = "content.es"
+		[languages.es.params]
+		author = "ItsZariep"
+
+	[languages.en]
+		label = "English"
+		locale = "en-US"
+		weight = 2
+		title = "ItsZariep"
+		contentDir = "content.en"
+		[languages.en.params]
+		author = "ItsZariep"
 
 [params]
-  author = "ItsZariep"
-
-  [[params.social_links]]
-    name = "LiberaPay"
-    url = "https://liberapay.com/zariep/"
-  [[params.social_links]]
-    name = "Ko-fi"
-    url = "https://ko-fi.com/itszariep"
-
-  [[params.social_links]]
-    name = "Codeberg"
-    url = "https://codeberg.org/itszariep"
-
-  [[params.social_links]]
-    name = "GitHub"
-    url = "https://github.com/itszariep"
-
-  [[params.social_links]]
-    name = "Telegram"
-    url = "https://t.me/IsZariep"
-
-  [[params.social_links]]
-    name = "Youtube"
-    url = "https://youtube.com/@itszariep"
+	showDate = true
+	date_format = "02/01/2006"
+	[[params.social_links]]
+		name = "LiberaPay"
+		url = "https://liberapay.com/zariep/"
+	[[params.social_links]]
+		name = "Ko-fi"
+		url = "https://ko-fi.com/itszariep"
+	[[params.social_links]]
+		name = "Codeberg"
+		url = "https://codeberg.org/itszariep"
+	[[params.social_links]]
+		name = "GitHub"
+		url = "https://github.com/itszariep"
+	[[params.social_links]]
+		name = "Telegram"
+		url = "https://t.me/IsZariep"
+	[[params.social_links]]
+		name = "Youtube"
+		url = "https://youtube.com/@itszariep"

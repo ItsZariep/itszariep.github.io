@@ -1,0 +1,47 @@
+<!-- Top Categories -->
+<div class="post-postcategories">
+	<h3>
+		{{ $page := . }}
+		{{ if $page.Params.categories }}
+			{{ range $index, $cat := $page.Params.categories }}
+			<a href="/categories/{{ $cat | urlize }}">{{ $cat }}</a>
+			{{ if ne (add $index 1) (len $page.Params.categories) }} | {{ end }}
+			{{ end }}
+		{{ end }}
+	</h3>
+</div>
+
+<!-- Language Switcher -->
+{{ if .IsTranslated }}
+<div class="post-langswitcher">
+	<div class="tp-dropdown">
+		<input type="checkbox" id="post-lang-toggle" class="dropdown-checkbox">
+		<label for="post-lang-toggle" class="lang-label">
+			{{ .Language.Label }}
+			<span class="lang-arrow">▾</span>
+		</label>
+		<ul class="tp-dropdown-elements">
+			{{ range .AllTranslations }}
+			<li>
+				<a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}">
+					{{ .Language.Label }}
+				</a>
+			</li>
+			{{ end }}
+		</ul>
+	</div>
+</div>
+{{ end }}
+
+<!-- Title -->
+<div class="post-posttitle">
+	<h1>{{ .Title }}</h1>
+</div>
+<!-- Date -->
+<div class="post-postdate">
+	{{ $show := .Params.showDate }}
+	{{ if eq $show nil }}{{ $show = .Site.Params.showDate }}{{ end }}
+	{{ if $show }}
+		<h3>{{ .Date.Format .Site.Params.date_format }}</h3>
+	{{ end }}
+</div>

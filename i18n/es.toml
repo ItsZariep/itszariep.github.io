@@ -1,0 +1,18 @@
+[home]
+other = "Inicio"
+[about]
+other = "Acerca de"
+[social]
+other = "Redes"
+[rss]
+other = "RSS"
+[latest_video]
+other = "Ultimo video en youtube"
+[entries]
+other = "Entradas"
+[categories]
+other = "Categorias"
+[about_me_link]
+other = "Acerca de mi"
+[author_bio_itszariep]
+other = "Youtuber y programador, usando Linux desde 2015"

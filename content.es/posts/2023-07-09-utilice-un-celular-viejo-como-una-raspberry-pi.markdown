@@ -7,7 +7,7 @@ image: /img/thumb/samsungpi.jpg
 ---
 
 ¡Hola gente! ¿Cómo están? Espero que estén bien. La otra vez, hablando en el grupo de Telegram,
-estábamos discutiendo cómo y donde hostear a Seleduck, que es un bot que tenemos ahí para experimentar y pasar el rato. Debido a que Oracle no me permitía crear la cuenta por más que lo intentara, en fin, entre varias opciones se me ocurrió una idea medio divagante, y es aprovechar un celular viejo que tengo guardado e instalar Termux en él.
+estábamos discutiendo cómo y donde hostear a [Zariduck](https://codeberg.org/itszariep/zariduck), que es un bot que tenemos ahí para experimentar y pasar el rato. Debido a que Oracle no me permitía crear la cuenta por más que lo intentara, en fin, entre varias opciones se me ocurrió una idea medio divagante, y es aprovechar un celular viejo que tengo guardado e instalar Termux en él.
 
 ## ¿Qué es termux?
 
@@ -21,7 +21,9 @@ Sobre la instalación de Termux, no tiene mucha ciencia. Desde la página de F-D
 
 ## Configurar Termux
 
-En mi caso, como me gusta más Pacman y Termux lo soporta, [reemplacé "apt" por "pacman"](https://.com/termux-reemplazar-dpkg-apt-por-pacman/). Esto, si bien no es necesario, nos ayuda a tener una paquetería más rápida. Se nota más en un almacenamiento lento como el de este celular, ya que Pacman es mucho más rápido que Apt.
+En mi caso, como me gusta más Pacman y Termux lo soporta, [reemplacé "apt" por "pacman"]({{% relref "2023-02-23-termux-reemplazar-dpkg-apt-por-pacman.md" %}})
+
+. Esto, si bien no es necesario, nos ayuda a tener una paquetería más rápida. Se nota más en un almacenamiento lento como el de este celular, ya que Pacman es mucho más rápido que Apt.
 
 Un poco fuera de la configuración, usar la terminal directamente desde el celular no es muy cómodo, así que ocuparemos instalar OpenSSH, que nos provee los protocolos SSH y SFTP. El primero es para acceder a la shell desde otro dispositivo y el segundo para acceder al sistema de archivos, el servidor ssh se inicia con el comando sshd.
 

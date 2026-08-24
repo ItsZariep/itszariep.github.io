@@ -1,0 +1,36 @@
+{{ $indextype := .Params.indextype }}
+{{ if eq $indextype "posts" }}
+	<!-- Posts section -->
+	<div class="posts-container">
+		{{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
+		{{ range $paginator.Pages }}
+			<a href="{{ .RelPermalink }}" class="post-link">
+				<article class="post-card">
+					{{ if eq .Site.Language.Lang "es" }}
+					<div class="post-image-wrapper">
+						{{ with .Params.image }}
+							<img src="{{ . | relURL }}" alt="{{ $.Title }}" class="post-image" />
+						{{ end }}
+					</div>
+					{{ end }}
+					<div class="post-info">
+						<h3 class="post-labels">{{ delimit .Params.categories " | " }}</h3>
+						<h2 class="post-title">{{ .Title }}</h2>
+						<div class="post-date">{{ .Date.Format .Site.Params.date_format }}</div>
+					</div>
+				</article>
+			</a>
+		{{ end }}
+		<!-- Pagination Controls -->
+		{{ partial "pagination-controls.html" . }}
+	</div>
+
+{{ else }}
+	<!-- Fallback content -->
+	<div style="grid-column: 1 / -1;">
+		<p>No content found for this page type. Please make sure you defined 
+			<code class="language-plaintext highlighter-rouge">indextype: posts</code>
+			or <code class="language-plaintext highlighter-rouge">indextype: chapters</code>.
+		</p>
+	</div>
+{{ end }}

@@ -7,7 +7,7 @@
 	<div class="userbox-content">
 		<h1>{{ $author }}</h1>
 		<h3>{{ partial "authors.html" (dict "author" $author) }}</h3>
-		<a href="{{ (print "/about/about") | relURL }}">Acerca de mi</a>
+		<a href="{{ (print "/about/about") | relLangURL }}">{{ i18n "about_me_link" }}</a>
 	</div>
 </div>
 <br>
